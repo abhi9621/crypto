@@ -1,0 +1,30 @@
+
+*{
+    /* border: solid red; */
+    background-color: aquamarine;
+    
+
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: solid black; */
+    height: 80vh;
+    width: 100%;
+    padding-left: 20rem;
+}
+.pic{
+    height: 50%;
+}
+.image{
+height: 100%;
+width:100%
+}
+.data{
+    padding: 2rem;
+    height: 50%;
+    width:50%;
+    background-color: aliceblue;
+}
