@@ -33,7 +33,7 @@ fetch(`${proxyUrl}${baseUrl}`, {
           cryptoCoin += `<td> ${coin.btcPrice} </td>`;
           cryptoCoin += `<td> ${coin.rank}</td>`;
           cryptoCoin += `<td> ${coin.tier} </td>`;      
-          cryptoCoin += `<td> <a href='http://127.0.0.1:5500/crpt/search.html?q=${coin.name}'> ${coin.name} </a> </td>`;
+          cryptoCoin += `<td> <a href='https://abhi9621.github.io/crypto/crpt/search.html?q=${coin.name}'> ${coin.name} </a> </td>`;
           cryptoCoin += `<td> $${Math.round(coin.price)} Billion</td>`;
           cryptoCoin += `<td> ${coin.symbol}</td>`;"<tr>";
         });
